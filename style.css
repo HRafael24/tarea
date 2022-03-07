@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+}
+.col{
+    padding: 0;
+    margin: 0;
+}
+.flex{
+    display: inline-flex;
+}
+.flex p{
+padding-left: 15px;
+padding-top: 5px;
+}
+.signo{
+    position: static;
+}
+.linea {
+    position: relative;
+    border-top: 1px solid white;
+    height: 2px;
+    max-width: 160px;
+    padding: 0;
+    margin: 50px auto 0 10px;
+  }
+
+  .linea1 {
+    position: relative;
+    border-top: 1px solid white;
+    height: 2px;
+    max-width: 160px;
+    padding: 0;
+    margin: -42px 20px auto auto;
+  }
+
+  .p1{
+      position: relative;
+      top: -15px;
+  }
+  .p2{
+      position: relative;
+      left: 110px;
+      bottom: 45px;
+      color: white;
+  }
+  .colum{
+      position: absolute;
+      align-items: center;
+      margin-left: 80px;
+  }
+.lg-4 img{
+position:relative;
+left:81px;
+top:0px;
+z-index:-1;
+}
+ 
+.lg-4 > .img2
+{
+position:relative;
+left:40px;
+top:2px;
+z-index:-2;
+}
+.lg-4 > .img3{
+    color: white;
+    position:relative;
+    width:40px;
+    left:31px;
+    top:0px;
+    z-index:-2; 
+}
+.parr1{
+text-align: center;
+}
+.circulo {
+    position: absolute;
+	width: 28rem;
+	height: 28rem;
+	border-radius: 50%;
+	background: rgba(228, 135, 251, 1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    z-index: -2;
+}
